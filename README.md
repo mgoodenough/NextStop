@@ -1,6 +1,13 @@
 # NextStop
 The NextStop app displays Metro Transit bus stops for a given route & direction.
 
+## Getting Started
+Once you have downloaded or cloned the NextStop project repo, run the following command in your terminal:
+
+```bash
+npm install
+```
+
 ## Commands
 #### `npm run dev`
 Run the app in development mode.
@@ -33,3 +40,10 @@ The NextStop application is built with the following technologies:
 The NextStop app integrates with the MetroTransit NextTrip API:
 - [Metro Transit NextTrip Intorduction](https://svc.metrotransit.org/nextrip)
 - [Swagger: NextTrip Api](https://svc.metrotransit.org/swagger/index.html)
+
+## Todo
+Further enhancements:
+- Error Handling
+- On loading tansitions and animations
+- Test coverage - current test implementation is for demonstration purposes
+

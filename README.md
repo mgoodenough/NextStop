@@ -12,9 +12,8 @@ npm install
 #### `npm run dev`
 Run the app in development mode.
 Open http://localhost:3000/ to view it in the browser.
-The page will automatically reload if you make changes to the code.
 #### `npm run build`
-Create a production ready bundle ready for deployment to a hosting platform.
+Create a production ready bundle for deployment to a hosting platform.
 #### `npm run start`
 Run the app in production mode locally.
 Open http://localhost:3000/ to view it in the browser.

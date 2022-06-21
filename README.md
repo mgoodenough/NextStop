@@ -33,7 +33,7 @@ Run available tests.
 The NextStop application is built with the following technologies:
 - [Next.js](https://nextjs.org/docs) - A flexible React framework that provides developers with the building blocks to create fast web applications.
 - [SWR](https://swr.vercel.app/) - A react hooks library for fetching data on the client-side while supporting caching, revalidation, and de-duping of requests.
-- [Grommet](https://v2.grommet.io/) - A UI framework focuse on building responsive and accessible mobile-first projects for the web with an easy to use component library.
+- [Grommet](https://v2.grommet.io/) - A UI framework geared for responsive and accessible mobile-first projects for the web with an easy to use component library.
 
 ## Third-party Integrations
 The NextStop app integrates with the MetroTransit NextTrip API:
@@ -43,6 +43,6 @@ The NextStop app integrates with the MetroTransit NextTrip API:
 ## Todo
 Further enhancements:
 - Error Handling
-- On loading tansitions and animations
-- Test coverage - current test implementation is for demonstration purposes
+- On-load tansitions and animations
+- Test coverage 
 

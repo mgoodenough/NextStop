@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { FormField, Select } from 'grommet';
+import { Box, FormField, Select, Spinner } from 'grommet';
 import { useStore } from '../store';
 import useRoutes from '../hooks/useRoutes';
+import FormSpinner from './FormSpinner';
 
 function SelectRoute() {
   const { route, setRoute, reset} = useStore();
@@ -21,7 +22,7 @@ function SelectRoute() {
     setOptions(defaultOptions.filter(o => o.label.match(regexp)));
   }
 
-  if (isLoading) return;
+  if (isLoading) return <FormSpinner />;
 
   return (
     <FormField>

@@ -1,11 +1,15 @@
-import { Box, Heading, List, Text } from 'grommet';
+import { Box, Heading, List, Spinner, Text } from 'grommet';
 import useStops from '../hooks/useStops';
 import Clear from '../components/Clear';
 
 function StopList() {
   const { data, isLoading, isError } = useStops();
   
-  if (isLoading) return;
+  if (isLoading) return (
+    <Box pad='small' align='center'>
+      <Spinner />
+    </Box>
+  );
 
   return (
     <>

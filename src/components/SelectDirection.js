@@ -1,6 +1,7 @@
 import { FormField, Select } from 'grommet';
 import { useStore } from '../store';
 import useDirection from '../hooks/useDirection';
+import FormSpinner from './FormSpinner';
 
 function SelectDirection() {
   const { data:defaultOptions, isLoading } = useDirection();
@@ -10,7 +11,7 @@ function SelectDirection() {
     setDirection(e.target.value);
   }
 
-  if (isLoading) return;
+  if (isLoading) return <FormSpinner />;
   
   return (
     <FormField>
